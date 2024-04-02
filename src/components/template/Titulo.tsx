@@ -13,7 +13,7 @@ interface TituloProps {
         <h1
           className={`
               font-black text-3xl
-              text-gray-900 dark:text-gray-100
+              text-gray-900 dark:text-gray-900
               `}
         >
           {props.titulo}

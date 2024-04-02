@@ -28,9 +28,9 @@ export default function Autenticacao() {
     async function submeter() {
       try {
         if (modo === 'login') {
-          await login(email, senha);
+          await login!(email, senha);
         } else {
-          await cadastrar(email, senha);
+          await cadastrar!(email, senha);
         }
       } catch (e) {
         if (e instanceof Error) {
